@@ -91,4 +91,4 @@ async def on_message(message):
 
 
 # Run the bot with your token
-bot.run('MTE3NDgwNDM1NTM1NDk5MjcxMQ.Gm5H5N.4xIX9zD4-8aXm4_QY8sveblz1XXTIx1QAhE1Uo')
+bot.run('')
