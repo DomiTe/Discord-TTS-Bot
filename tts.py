@@ -60,7 +60,7 @@ async def disconnect(ctx):
 @bot.command(name='testplay')
 async def testplay(ctx):
     voice_channel = discord.utils.get(bot.voice_clients, guild=ctx.guild)
-    voice_channel.play(discord.FFmpegPCMAudio(executable=ffmpeg_path, source='GET FUNKY! NOT THAT WAY BUT IN A FUNKY WAY.mp3'), after=lambda e: print('done', e))
+    voice_channel.play(discord.FFmpegPCMAudio(executable=ffmpeg_path, source='test.mp3'), after=lambda e: print('done', e))
         
 @bot.event        
 async def on_message(message):
